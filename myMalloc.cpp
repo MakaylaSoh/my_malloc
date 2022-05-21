@@ -1,15 +1,11 @@
 /* Makayla Soh 10/22/2021
-*  File name: MAKAYLA_SOH_PROGRAM_2.cpp
+*  File name: myMalloc.cpp
 *  Description: create functions malloc() and free() using sbrk() and brk()
 */
 
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <string.h>
 #include <unistd.h>
 #include <iostream>
 #include <time.h>
-
 using namespace std;
 
 #define PAGESIZE 4096
